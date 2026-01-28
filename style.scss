@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1208px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+header {
+    .container {
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .input_ichki {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+
+                .input {
+                    width: 140px;
+                    height: 40px;
+                    background: #70C05B;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    border-radius: 8px;
+                    color: #FFFFFF;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    transition: all 1.2s ease-in-out;
+                }
+
+                .input:hover {
+                    background: aqua;
+                    border-radius: 8px;
+                    color: black;
+
+                }
+
+                form {
+                    border: none;
+                    width: 361px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    border: 1px solid  #8F8F8F;
+
+                    input {
+                        border: none;
+                        width: 345px;
+                        height: 24px;
+                        padding: 8px 8px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #8F8F8F;
+                    }
+                }
+            }
+
+
+            .navbar_alrk {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+            }
+        }
+    }
+}
+
+main{
+    
+}
