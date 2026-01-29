@@ -501,6 +501,7 @@ main {
                     align-items: center;
                     gap: 40px;
                     margin-top: 40px;
+
                     .card {
                         width: 600px;
                         height: 200px;
@@ -513,14 +514,15 @@ main {
                         transition: all 1.2s ease-in-out;
 
                         .cards_text {
-                           
+
                             h1 {
                                 font-weight: 700;
                                 font-size: 24px;
                                 line-height: 150%;
-                                color: #414141; 
+                                color: #414141;
                             }
-                            p{
+
+                            p {
                                 font-weight: 400;
                                 font-size: 16px;
                                 line-height: 150%;
@@ -531,7 +533,7 @@ main {
 
                     .card:hover {
                         box-shadow: 0px 20px 16px 0px #b3ceab;
-                        background:  #E5FFDE;
+                        background: #E5FFDE;
                     }
 
                     .card2 {
@@ -543,7 +545,7 @@ main {
                         align-items: center;
                         justify-content: space-between;
                         background: #E5FFDE;
-                        transition: all 1.2s  ease-in-out;
+                        transition: all 1.2s ease-in-out;
 
                         .cards_text {
                             h1 {
@@ -552,7 +554,8 @@ main {
                                 line-height: 150%;
                                 color: #414141;
                             }
-                            p{
+
+                            p {
                                 font-weight: 400;
                                 font-size: 16px;
                                 line-height: 150%;
@@ -560,13 +563,16 @@ main {
                             }
                         }
                     }
+
                     .card2:hover {
                         box-shadow: 0px 20px 16px 0px #CA936080;
                         background: #FCD5BA;
-                        h1{
+
+                        h1 {
                             color: #FFFFFF;
                         }
-                        p{
+
+                        p {
                             color: #FFFFFF;
                         }
                     }
@@ -575,11 +581,12 @@ main {
         }
     }
 
-    .section6{
+    .section6 {
         margin-top: 120px;
-        .container{
-            .nawi{
-                h1{
+
+        .container {
+            .nawi {
+                h1 {
                     font-weight: 700;
                     font-size: 36px;
                     line-height: 150%;
@@ -587,13 +594,13 @@ main {
                     margin-bottom: 40px;
                 }
 
-                .nawi_button{
+                .nawi_button {
                     display: flex;
                     align-items: center;
                     gap: 24px;
                     margin-bottom: 24px;
 
-                    button{
+                    button {
                         width: 104px;
                         height: 32px;
                         border: none;
@@ -605,7 +612,8 @@ main {
                         color: #FFFFFF;
                         transition: all 1s ease-in-out;
                     }
-                    button:hover{
+
+                    button:hover {
                         box-shadow: 0px 10px 16px 0px #a3a3a3;
                         background: #70C05B;
                         color: #FFFFFF;
@@ -615,5 +623,684 @@ main {
         }
     }
 
-    .
+    .section7 {
+        margin-top: 120px;
+
+        .container {
+
+            .stat {
+
+                .stat_title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 150%;
+                        color: #414141;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #606060;
+                    }
+                }
+
+                .stat_cards {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    .card {
+                        width: 376px;
+                        height: 420px;
+                        border-radius: 4px;
+                        background: #FFFFFF;
+                        box-shadow: 0px 10px 16px 0px #0000009a;
+
+                        img {
+                            border-top-left-radius: 4px;
+                            border-top-right-radius: 4px;
+                        }
+
+                        .sana {
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 150%;
+                            color: #8F8F8F;
+                            margin: 10px 10px;
+                        }
+
+                        h6 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #414141;
+                            margin: 0px 10px;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #414141;
+                            margin: 10px 10px;
+                        }
+
+                        button {
+                            width: 150px;
+                            height: 40px;
+                            background: #E5FFDE;
+                            border: none;
+                            border-radius: 4px;
+                            margin: 0 10px;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #70C05B;
+                            transition: all 1s ease-in-out;
+                        }
+
+                        button:hover {
+                            box-shadow: 0px 10px 16px 0px #a3a3a3;
+                            background: #70C05B;
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 80px;
+    background-image: url(img/pattern2.png);
+
+    .container {
+
+        .finsh {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .finsh_img {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                ul {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 150%;
+                            color: #414141;
+
+                        }
+                    }
+                }
+            }
+
+            .footer_dizayn {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                .footer_insta {
+                    display: flex;
+                    gap: 16px;
+                }
+
+                .footer_tel {
+                    margin-top: 34px;
+
+                    .footer_tl {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                    }
+
+                    .footer_diz {
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1100px) {
+    header {
+        .navbar_alrk {
+            .yure {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        .section1 {
+            .pradukt {
+                flex-wrap: wrap;
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+
+        .section2 {
+            .aksi {
+                .aksi_text {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .aksi_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+
+                    .card {
+                        width: 48%;
+                    }
+
+                    .card1 {
+                        width: 48%;
+                    }
+                }
+            }
+
+        }
+
+        .section3 {
+            .novin {
+                .novin_title {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .novin_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+                }
+            }
+
+        }
+
+        .section4 {
+            .pok {
+                .pok_title {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .pok_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+                }
+            }
+
+        }
+
+        .section5 {
+            .pred {
+                text-align: center;
+            }
+
+            .pred_cards {
+                width: 120%;
+                flex-wrap: wrap;
+            }
+        }
+
+        .section6 {
+            display: none;
+        }
+
+        .section7 {
+            .stat_title {
+                h1 {
+                    text-align: center;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+
+            .stat_cards {
+                width: 120%;
+                flex-wrap: wrap;
+            }
+        }
+    }
+
+    footer {
+
+        .finsh {
+
+            .finsh_img {
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:850px) {
+    header {
+        .navbar_alrk {
+            .yure {
+                display: none;
+            }
+
+            img {
+                display: none;
+            }
+
+            p {
+                display: none;
+            }
+
+            i {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        .section1 {
+            .pradukt {
+                flex-wrap: wrap;
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+
+        .section2 {
+            .aksi {
+                .aksi_text {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .aksi_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+
+                    .card {
+                        width: 100%;
+                    }
+
+                    .card1 {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .section3 {
+            .novin {
+                .novin_title {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .novin_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+
+                    .card {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .section4 {
+            .pok {
+                .pok_title {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .pok_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+
+                    .card {
+                        width: 100%;
+
+                    }
+                }
+
+            }
+
+            .section5 {
+                .pred {
+                    text-align: center;
+                }
+
+                .pred_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+                }
+            }
+
+            .section6 {
+                display: none;
+            }
+
+            .section7 {
+                .stat_title {
+                    h1 {
+                        text-align: center;
+                    }
+
+                    p {
+                        display: none;
+                    }
+                }
+
+                .stat_cards {
+                    width: 120%;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+
+        .section5 {
+            .pred {
+                text-align: center;
+            }
+
+            .pred_cards {
+                width: 120%;
+                flex-wrap: wrap;
+
+                .card {
+                    width: 100%;
+
+                }
+            }
+        }
+
+        .section6 {
+            display: none;
+        }
+
+        .section7 {
+            .stat_title {
+                h1 {
+                    text-align: center;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+
+            .stat_cards {
+                width: 120%;
+                flex-wrap: wrap;
+
+                .card {
+                    width: 100%;
+
+                }
+            }
+        }
+
+        footer {
+
+            .finsh {
+
+                .finsh_img {
+                    ul {
+                        li {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:700px) {
+    header {
+        .navbar_alrk {
+            .yure {
+                display: none;
+            }
+
+            img {
+                display: none;
+            }
+
+            p {
+                display: none;
+            }
+
+            i {
+                display: none;
+            }
+        }
+    }
+
+    main {
+        .section1 {
+            .pradukt {
+                flex-wrap: wrap;
+
+                img {
+                    width: 100%;
+                }
+
+                h1 {
+                    font-size: 38px;
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
+
+        .section2 {
+            .aksi {
+                .aksi_text {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .aksi_cards {
+                    width: 100%;
+                    flex-direction: column;
+
+                    .card {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .section3 {
+            .novin {
+                .novin_title {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .novin_cards {
+                    width: 120%;
+                    flex-direction: column;
+
+                    .card {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .section4 {
+            .pok {
+                .pok_title {
+                    p {
+                        display: none;
+                    }
+
+                    h1 {
+                        text-align: center;
+                    }
+                }
+
+                .pok_cards {
+                    width: 120%;
+                    flex-direction: column;
+
+                    .card {
+                        width: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .section5 {
+            .pred {
+                text-align: center;
+            }
+
+            .pred_cards {
+                width: 120%;
+                // height: 300px;
+                flex-wrap: wrap;
+
+                .card {
+                    // width: 100%;
+                    height: 50%;
+                    flex-direction: column;
+                }
+
+                .card2 {
+                    // width: 100%;
+                    height: 300px;
+                    flex-direction: column;
+                }
+            }
+        }
+
+        .section6 {
+            display: none;
+        }
+
+        .section7 {
+            .stat_title {
+                h1 {
+                    text-align: center;
+                }
+
+                p {
+                    display: none;
+                }
+            }
+
+            .stat_cards {
+                width: 120%;
+                flex-direction: column;
+
+                .card {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    footer {
+
+        .finsh {
+
+            .finsh_img {
+                ul {
+                    li {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
 }
