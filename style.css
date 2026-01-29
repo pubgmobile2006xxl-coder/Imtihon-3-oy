@@ -386,4 +386,112 @@ main .section4 .container .pok .pok_cards .card a button:hover {
   border: none;
   border-radius: 4px;
   color: #FFFFFF;
+}
+main .section5 {
+  margin-top: 120px;
+}
+main .section5 .container .pred h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section5 .container .pred .pred_cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+main .section5 .container .pred .pred_cards .card {
+  width: 600px;
+  height: 200px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 20px 16px 0px rgba(202, 147, 96, 0.5019607843);
+  justify-content: space-between;
+  background: #FCD5BA;
+  transition: all 1.2s ease-in-out;
+}
+main .section5 .container .pred .pred_cards .card .cards_text h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section5 .container .pred .pred_cards .card .cards_text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section5 .container .pred .pred_cards .card:hover {
+  box-shadow: 0px 20px 16px 0px #b3ceab;
+  background: #E5FFDE;
+}
+main .section5 .container .pred .pred_cards .card2 {
+  width: 600px;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0px 20px 16px 0px #b3ceab;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #E5FFDE;
+  transition: all 1.2s ease-in-out;
+}
+main .section5 .container .pred .pred_cards .card2 .cards_text h1 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section5 .container .pred .pred_cards .card2 .cards_text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section5 .container .pred .pred_cards .card2:hover {
+  box-shadow: 0px 20px 16px 0px rgba(202, 147, 96, 0.5019607843);
+  background: #FCD5BA;
+}
+main .section5 .container .pred .pred_cards .card2:hover h1 {
+  color: #FFFFFF;
+}
+main .section5 .container .pred .pred_cards .card2:hover p {
+  color: #FFFFFF;
+}
+main .section6 {
+  margin-top: 120px;
+}
+main .section6 .container .nawi h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+  margin-bottom: 40px;
+}
+main .section6 .container .nawi .nawi_button {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+main .section6 .container .nawi .nawi_button button {
+  width: 104px;
+  height: 32px;
+  border: none;
+  border-radius: 4px;
+  background: #a3a3a3;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #FFFFFF;
+  transition: all 1s ease-in-out;
+}
+main .section6 .container .nawi .nawi_button button:hover {
+  box-shadow: 0px 10px 16px 0px #a3a3a3;
+  background: #70C05B;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */

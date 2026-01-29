@@ -81,11 +81,12 @@ header {
                 align-items: center;
                 gap: 24px;
 
-                .yure{
-                    ul{
-                        li{
+                .yure {
+                    ul {
+                        li {
                             list-style: none;
-                            a{
+
+                            a {
                                 font-weight: 400;
                                 font-size: 12px;
                                 line-height: 150%;
@@ -390,10 +391,10 @@ main {
         }
     }
 
-    .section4{
+    .section4 {
         margin-top: 80px;
 
-        .container{
+        .container {
             .pok {
                 .pok_title {
                     display: flex;
@@ -482,4 +483,137 @@ main {
             }
         }
     }
+
+    .section5 {
+        margin-top: 120px;
+
+        .container {
+            .pred {
+                h1 {
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 150%;
+                    color: #414141;
+                }
+
+                .pred_cards {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+                    margin-top: 40px;
+                    .card {
+                        width: 600px;
+                        height: 200px;
+                        border-radius: 4px;
+                        display: flex;
+                        align-items: center;
+                        box-shadow: 0px 20px 16px 0px #CA936080;
+                        justify-content: space-between;
+                        background: #FCD5BA;
+                        transition: all 1.2s ease-in-out;
+
+                        .cards_text {
+                           
+                            h1 {
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 150%;
+                                color: #414141; 
+                            }
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #414141;
+                            }
+                        }
+                    }
+
+                    .card:hover {
+                        box-shadow: 0px 20px 16px 0px #b3ceab;
+                        background:  #E5FFDE;
+                    }
+
+                    .card2 {
+                        width: 600px;
+                        height: 200px;
+                        border-radius: 4px;
+                        box-shadow: 0px 20px 16px 0px #b3ceab;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        background: #E5FFDE;
+                        transition: all 1.2s  ease-in-out;
+
+                        .cards_text {
+                            h1 {
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 150%;
+                                color: #414141;
+                            }
+                            p{
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #414141;
+                            }
+                        }
+                    }
+                    .card2:hover {
+                        box-shadow: 0px 20px 16px 0px #CA936080;
+                        background: #FCD5BA;
+                        h1{
+                            color: #FFFFFF;
+                        }
+                        p{
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section6{
+        margin-top: 120px;
+        .container{
+            .nawi{
+                h1{
+                    font-weight: 700;
+                    font-size: 36px;
+                    line-height: 150%;
+                    color: #414141;
+                    margin-bottom: 40px;
+                }
+
+                .nawi_button{
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+                    margin-bottom: 24px;
+
+                    button{
+                        width: 104px;
+                        height: 32px;
+                        border: none;
+                        border-radius: 4px;
+                        background: #a3a3a3;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 150%;
+                        color: #FFFFFF;
+                        transition: all 1s ease-in-out;
+                    }
+                    button:hover{
+                        box-shadow: 0px 10px 16px 0px #a3a3a3;
+                        background: #70C05B;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+
+    .
 }
