@@ -8,11 +8,18 @@
     max-width: 1208px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
-    margin-top: 50px;
+    padding: 20px 20px;
+}
+
+body {
+    background: #F9F4E2;
+
 }
 
 header {
+    margin-bottom: 4px;
+    background: #FFFFFF;
+
     .container {
         .navbar {
             display: flex;
@@ -53,7 +60,7 @@ header {
                     height: 40px;
                     display: flex;
                     align-items: center;
-                    border: 1px solid  #8F8F8F;
+                    border: 1px solid #8F8F8F;
 
                     input {
                         border: none;
@@ -73,11 +80,406 @@ header {
                 display: flex;
                 align-items: center;
                 gap: 24px;
+
+                .yure{
+                    ul{
+                        li{
+                            list-style: none;
+                            a{
+                                font-weight: 400;
+                                font-size: 12px;
+                                line-height: 150%;
+                                color: #414141;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 }
 
-main{
-    
+main {
+    .section1 {
+        background-image: url(img/pattern2.png);
+
+        .container {
+            .pradukt {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 150%;
+                    color: #414141;
+                }
+            }
+        }
+    }
+
+    .section2 {
+        margin-top: 80px;
+
+        .container {
+            .aksi {
+                .aksi_text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 150%;
+                        color: #414141;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #606060;
+                    }
+                }
+
+                .aksi_cards {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    .card {
+                        width: 280px;
+                        height: 350px;
+                        background: #FFFFFF;
+                        box-shadow: 1px 2px 4px 0px #0000001A;
+                        padding: 5px 8px;
+
+                        .aksi_rubl {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            h6 {
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 150%;
+                                color: #414141;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #606060;
+                            }
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #414141;
+                            padding: 2px 0;
+                        }
+
+                        .aksi_star {
+                            display: flex;
+                            align-items: center;
+                            gap: 4px;
+
+                            .red_star {
+                                color: #FF6633;
+                            }
+
+                            .red_star2 {
+                                color: #BFBFBF;
+                            }
+
+                        }
+
+                        a {
+                            button {
+                                width: 256px;
+                                height: 40px;
+                                background: none;
+                                border: 1px solid #70C05B;
+                                border-radius: 4px;
+                                color: #70C05B;
+                                transition: all 1s ease-in-out;
+                            }
+
+                            button:hover {
+                                background: #FF6633;
+                                border: none;
+                                border-radius: 4px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+
+                    .card1 {
+                        width: 280px;
+                        height: 350px;
+                        background: #FFFFFF;
+                        box-shadow: 1px 2px 4px 0px #0000001A;
+                        padding: 5px 8px;
+
+                        .aksi_rubl {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            h6 {
+                                font-weight: 700;
+                                font-size: 18px;
+                                line-height: 150%;
+                                color: #414141;
+                            }
+
+                            p {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 150%;
+                                color: #606060;
+                            }
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #414141;
+                            padding: 2px 0;
+                        }
+
+                        .aksi_star {
+                            display: flex;
+                            align-items: center;
+                            gap: 4px;
+                            margin-top: 20px;
+
+                            .red_star {
+                                color: #FF6633;
+                            }
+
+                            .red_star2 {
+                                color: #BFBFBF;
+                            }
+
+                        }
+
+                        a {
+                            button {
+                                width: 256px;
+                                height: 40px;
+                                background: none;
+                                border: 1px solid #70C05B;
+                                border-radius: 4px;
+                                margin-top: 5px;
+                                color: #70C05B;
+                                transition: all 1s ease-in-out;
+                            }
+
+                            button:hover {
+                                background: #FF6633;
+                                border: none;
+                                border-radius: 4px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section3 {
+        margin-top: 80px;
+
+        .container {
+            .novin {
+                .novin_title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 150%;
+                        color: #414141;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #606060;
+                    }
+                }
+
+                .novin_cards {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    .card {
+                        width: 280px;
+                        height: 350px;
+                        background: #FFFFFF;
+                        box-shadow: 1px 2px 4px 0px #0000001A;
+                        padding: 8px 8px;
+
+                        h6 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #414141;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #414141;
+                            padding: 2px 0;
+                        }
+
+                        .novin_star {
+                            display: flex;
+                            align-items: center;
+                            gap: 4px;
+                            margin-top: 8px;
+
+                            .red_star {
+                                color: #FF6633;
+                            }
+
+                            .red_star2 {
+                                color: #BFBFBF;
+                            }
+                        }
+
+                        a {
+                            button {
+                                width: 256px;
+                                height: 40px;
+                                background: none;
+                                border: 1px solid #70C05B;
+                                border-radius: 4px;
+                                color: #70C05B;
+                                transition: all 1s ease-in-out;
+                                margin-top: 8px;
+                            }
+
+                            button:hover {
+                                background: #FF6633;
+                                border: none;
+                                border-radius: 4px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .section4{
+        margin-top: 80px;
+
+        .container{
+            .pok {
+                .pok_title {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-bottom: 40px;
+
+                    h1 {
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 150%;
+                        color: #414141;
+                    }
+
+                    p {
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 150%;
+                        color: #606060;
+                    }
+                }
+
+                .pok_cards {
+                    display: flex;
+                    align-items: center;
+                    gap: 40px;
+
+                    .card {
+                        width: 280px;
+                        height: 350px;
+                        background: #FFFFFF;
+                        box-shadow: 1px 2px 4px 0px #0000001A;
+                        padding: 8px 8px;
+
+                        h6 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 150%;
+                            color: #414141;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 150%;
+                            color: #414141;
+                            padding: 2px 0;
+                        }
+
+                        .novin_star {
+                            display: flex;
+                            align-items: center;
+                            gap: 4px;
+                            margin-top: 8px;
+
+                            .red_star {
+                                color: #FF6633;
+                            }
+
+                            .red_star2 {
+                                color: #BFBFBF;
+                            }
+                        }
+
+                        a {
+                            button {
+                                width: 256px;
+                                height: 40px;
+                                background: none;
+                                border: 1px solid #70C05B;
+                                border-radius: 4px;
+                                color: #70C05B;
+                                transition: all 1s ease-in-out;
+                                margin-top: 8px;
+                            }
+
+                            button:hover {
+                                background: #FF6633;
+                                border: none;
+                                border-radius: 4px;
+                                color: #FFFFFF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

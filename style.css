@@ -8,10 +8,17 @@
   max-width: 1208px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
-  margin-top: 50px;
+  padding: 20px 20px;
 }
 
+body {
+  background: #F9F4E2;
+}
+
+header {
+  margin-bottom: 4px;
+  background: #FFFFFF;
+}
 header .container .navbar {
   display: flex;
   align-items: center;
@@ -64,4 +71,319 @@ header .container .navbar .navbar_alrk {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+header .container .navbar .navbar_alrk .yure ul li {
+  list-style: none;
+}
+header .container .navbar .navbar_alrk .yure ul li a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #414141;
+  text-decoration: none;
+}
+
+main .section1 {
+  background-image: url(img/pattern2.png);
+}
+main .section1 .container .pradukt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section1 .container .pradukt h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 {
+  margin-top: 80px;
+}
+main .section2 .container .aksi .aksi_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main .section2 .container .aksi .aksi_text h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .container .aksi .aksi_text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+main .section2 .container .aksi .aksi_cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+main .section2 .container .aksi .aksi_cards .card {
+  width: 280px;
+  height: 350px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 5px 8px;
+}
+main .section2 .container .aksi .aksi_cards .card .aksi_rubl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section2 .container .aksi .aksi_cards .card .aksi_rubl h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .container .aksi .aksi_cards .card .aksi_rubl p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+main .section2 .container .aksi .aksi_cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  padding: 2px 0;
+}
+main .section2 .container .aksi .aksi_cards .card .aksi_star {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+main .section2 .container .aksi .aksi_cards .card .aksi_star .red_star {
+  color: #FF6633;
+}
+main .section2 .container .aksi .aksi_cards .card .aksi_star .red_star2 {
+  color: #BFBFBF;
+}
+main .section2 .container .aksi .aksi_cards .card a button {
+  width: 256px;
+  height: 40px;
+  background: none;
+  border: 1px solid #70C05B;
+  border-radius: 4px;
+  color: #70C05B;
+  transition: all 1s ease-in-out;
+}
+main .section2 .container .aksi .aksi_cards .card a button:hover {
+  background: #FF6633;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+main .section2 .container .aksi .aksi_cards .card1 {
+  width: 280px;
+  height: 350px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 5px 8px;
+}
+main .section2 .container .aksi .aksi_cards .card1 .aksi_rubl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section2 .container .aksi .aksi_cards .card1 .aksi_rubl h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section2 .container .aksi .aksi_cards .card1 .aksi_rubl p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+main .section2 .container .aksi .aksi_cards .card1 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  padding: 2px 0;
+}
+main .section2 .container .aksi .aksi_cards .card1 .aksi_star {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 20px;
+}
+main .section2 .container .aksi .aksi_cards .card1 .aksi_star .red_star {
+  color: #FF6633;
+}
+main .section2 .container .aksi .aksi_cards .card1 .aksi_star .red_star2 {
+  color: #BFBFBF;
+}
+main .section2 .container .aksi .aksi_cards .card1 a button {
+  width: 256px;
+  height: 40px;
+  background: none;
+  border: 1px solid #70C05B;
+  border-radius: 4px;
+  margin-top: 5px;
+  color: #70C05B;
+  transition: all 1s ease-in-out;
+}
+main .section2 .container .aksi .aksi_cards .card1 a button:hover {
+  background: #FF6633;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+main .section3 {
+  margin-top: 80px;
+}
+main .section3 .container .novin .novin_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main .section3 .container .novin .novin_title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section3 .container .novin .novin_title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+main .section3 .container .novin .novin_cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+main .section3 .container .novin .novin_cards .card {
+  width: 280px;
+  height: 350px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 8px 8px;
+}
+main .section3 .container .novin .novin_cards .card h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section3 .container .novin .novin_cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  padding: 2px 0;
+}
+main .section3 .container .novin .novin_cards .card .novin_star {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+}
+main .section3 .container .novin .novin_cards .card .novin_star .red_star {
+  color: #FF6633;
+}
+main .section3 .container .novin .novin_cards .card .novin_star .red_star2 {
+  color: #BFBFBF;
+}
+main .section3 .container .novin .novin_cards .card a button {
+  width: 256px;
+  height: 40px;
+  background: none;
+  border: 1px solid #70C05B;
+  border-radius: 4px;
+  color: #70C05B;
+  transition: all 1s ease-in-out;
+  margin-top: 8px;
+}
+main .section3 .container .novin .novin_cards .card a button:hover {
+  background: #FF6633;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+}
+main .section4 {
+  margin-top: 80px;
+}
+main .section4 .container .pok .pok_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main .section4 .container .pok .pok_title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section4 .container .pok .pok_title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+main .section4 .container .pok .pok_cards {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+main .section4 .container .pok .pok_cards .card {
+  width: 280px;
+  height: 350px;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.1019607843);
+  padding: 8px 8px;
+}
+main .section4 .container .pok .pok_cards .card h6 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+}
+main .section4 .container .pok .pok_cards .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #414141;
+  padding: 2px 0;
+}
+main .section4 .container .pok .pok_cards .card .novin_star {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+}
+main .section4 .container .pok .pok_cards .card .novin_star .red_star {
+  color: #FF6633;
+}
+main .section4 .container .pok .pok_cards .card .novin_star .red_star2 {
+  color: #BFBFBF;
+}
+main .section4 .container .pok .pok_cards .card a button {
+  width: 256px;
+  height: 40px;
+  background: none;
+  border: 1px solid #70C05B;
+  border-radius: 4px;
+  color: #70C05B;
+  transition: all 1s ease-in-out;
+  margin-top: 8px;
+}
+main .section4 .container .pok .pok_cards .card a button:hover {
+  background: #FF6633;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
