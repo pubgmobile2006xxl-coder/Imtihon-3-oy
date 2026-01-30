@@ -1132,7 +1132,12 @@ footer {
 
 @media(max-width:700px) {
     header {
-        .navbar_alrk {
+        .navbar{
+            .input_ichki{
+                flex-wrap: wrap;
+            }
+
+            .navbar_alrk {
             .yure {
                 display: none;
             }
@@ -1148,6 +1153,7 @@ footer {
             i {
                 display: none;
             }
+        }
         }
     }
 

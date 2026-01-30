@@ -815,16 +815,19 @@ footer .container .finsh .footer_dizayn .footer_tel .footer_diz {
   }
 }
 @media (max-width: 700px) {
-  header .navbar_alrk .yure {
+  header .navbar .input_ichki {
+    flex-wrap: wrap;
+  }
+  header .navbar .navbar_alrk .yure {
     display: none;
   }
-  header .navbar_alrk img {
+  header .navbar .navbar_alrk img {
     display: none;
   }
-  header .navbar_alrk p {
+  header .navbar .navbar_alrk p {
     display: none;
   }
-  header .navbar_alrk i {
+  header .navbar .navbar_alrk i {
     display: none;
   }
   main .section1 .pradukt {
